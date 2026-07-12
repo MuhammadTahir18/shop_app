@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:shop_app/core/theme/app_theme.dart';
+
+
+import 'core/theme/app_theme.dart';
 
 void main() {
   runApp(
