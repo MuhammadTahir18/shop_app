@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:shop_app/core/theme/app_theme.dart';
 
 void main() {
   runApp(
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Shop App",
+      theme: AppTheme.lightTheme,
       home: Scaffold(
         appBar: AppBar(
           title: const Text("Shop App"),
